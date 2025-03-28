@@ -1,6 +1,7 @@
 'use client';
 import { createUser, fetchUser, removeUser, updateUser } from "@/app/libs/crud"
 import { useEffect, useState } from "react"
+export const dynamic = "force-dynamic"; 
 
 const CreatePage = () => {
     ;
